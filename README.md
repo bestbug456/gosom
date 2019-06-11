@@ -4,7 +4,7 @@ Gosom is the memory efficent som implementation of [Kohonen Self Organising Map]
 
 ## Gosom comparison with R library
 
-For developing this library we analized the R library SOM. The 2 library split the wine dataset as follow
+For developing this library we analized the [R library SOM](https://cran.r-project.org/web/packages/kohonen/index.html). The 2 library split the wine dataset as follow
 
 ### R result
 
