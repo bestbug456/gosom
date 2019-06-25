@@ -141,3 +141,9 @@ func (s *Som) findBestMatchingUnit(data []float64) (float64, int) {
 	}
 	return bestDistances, codeBooksPos
 }
+
+// ReturnClosestNode return the best node for a giving data
+func (s *Som) ReturnClosestNode(data []float64) int {
+	_, pos := s.findBestMatchingUnit(data)
+	return pos
+}
